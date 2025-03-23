@@ -1,2 +1,2 @@
 image_speed = 0.01;
-camera_apply(1);
+view_set_camera(1,camera_create_view(0,0,1920,1080));

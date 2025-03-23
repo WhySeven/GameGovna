@@ -41,6 +41,7 @@
     {"id":{"name":"obj_door_1","path":"objects/obj_door_1/obj_door_1.yy",},},
     {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},},
     {"id":{"name":"obj_hand","path":"objects/obj_hand/obj_hand.yy",},},
+    {"id":{"name":"obj_navigate_back","path":"objects/obj_navigate_back/obj_navigate_back.yy",},},
     {"id":{"name":"obj_stranger","path":"objects/obj_stranger/obj_stranger.yy",},},
     {"id":{"name":"obj_table","path":"objects/obj_table/obj_table.yy",},},
     {"id":{"name":"obj_TORT","path":"objects/obj_TORT/obj_TORT.yy",},},

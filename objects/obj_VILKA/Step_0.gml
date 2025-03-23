@@ -12,4 +12,5 @@ if(isOnObj&&!isInHand){
 else{
 	if(isScaled==true){image_xscale-=1; image_yscale-=1; isScaled=false;}
 }
-if(isInHand){x=mouse_x+50;y=mouse_y;}
+if(isInHand){x=mouse_x+50;y=mouse_y;}else{x=obj_stranger.x-10;y=obj_stranger.y;
+image_angle=30+90;}

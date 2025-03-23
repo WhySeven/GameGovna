@@ -40,7 +40,8 @@
     {"id":{"name":"obj_table","path":"objects/obj_table/obj_table.yy",},},
     {"id":{"name":"obj_TORT","path":"objects/obj_TORT/obj_TORT.yy",},},
     {"id":{"name":"obj_VILKA","path":"objects/obj_VILKA/obj_VILKA.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"rm_entry_door","path":"rooms/rm_entry_door/rm_entry_door.yy",},},
+    {"id":{"name":"rm_tour_room","path":"rooms/rm_tour_room/rm_tour_room.yy",},},
     {"id":{"name":"Sound1","path":"sounds/Sound1/Sound1.yy",},},
     {"id":{"name":"Sound2","path":"sounds/Sound2/Sound2.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
@@ -53,7 +54,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_entry_door","path":"rooms/rm_entry_door/rm_entry_door.yy",},},
+    {"roomId":{"name":"rm_tour_room","path":"rooms/rm_tour_room/rm_tour_room.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

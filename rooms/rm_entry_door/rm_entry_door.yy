@@ -1,17 +1,17 @@
 {
   "$GMRoom":"v1",
-  "%Name":"Room1",
+  "%Name":"rm_entry_door",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_563D0569","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_591CBFA","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_53158BAB","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_135BBFF6","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_37A7DB77","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_123B44F1","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_563D0569","path":"rooms/rm_entry_door/rm_entry_door.yy",},
+    {"name":"inst_591CBFA","path":"rooms/rm_entry_door/rm_entry_door.yy",},
+    {"name":"inst_53158BAB","path":"rooms/rm_entry_door/rm_entry_door.yy",},
+    {"name":"inst_135BBFF6","path":"rooms/rm_entry_door/rm_entry_door.yy",},
+    {"name":"inst_37A7DB77","path":"rooms/rm_entry_door/rm_entry_door.yy",},
+    {"name":"inst_123B44F1","path":"rooms/rm_entry_door/rm_entry_door.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -27,7 +27,7 @@
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},"stretch":true,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":false,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
-  "name":"Room1",
+  "name":"rm_entry_door",
   "parent":{
     "name":"Rooms",
     "path":"folders/Rooms.yy",

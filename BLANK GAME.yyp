@@ -38,6 +38,7 @@
     {"id":{"name":"obj_bckground","path":"objects/obj_bckground/obj_bckground.yy",},},
     {"id":{"name":"obj_butler","path":"objects/obj_butler/obj_butler.yy",},},
     {"id":{"name":"obj_dialog","path":"objects/obj_dialog/obj_dialog.yy",},},
+    {"id":{"name":"obj_door_1","path":"objects/obj_door_1/obj_door_1.yy",},},
     {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},},
     {"id":{"name":"obj_hand","path":"objects/obj_hand/obj_hand.yy",},},
     {"id":{"name":"obj_stranger","path":"objects/obj_stranger/obj_stranger.yy",},},
@@ -64,9 +65,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_tour_room","path":"rooms/rm_tour_room/rm_tour_room.yy",},},
     {"roomId":{"name":"rm_entry_door","path":"rooms/rm_entry_door/rm_entry_door.yy",},},
     {"roomId":{"name":"rm_hall","path":"rooms/rm_hall/rm_hall.yy",},},
+    {"roomId":{"name":"rm_tour_room","path":"rooms/rm_tour_room/rm_tour_room.yy",},},
     {"roomId":{"name":"rm_diner_room","path":"rooms/rm_diner_room/rm_diner_room.yy",},},
   ],
   "templateType":"game",

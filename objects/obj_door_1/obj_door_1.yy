@@ -31,9 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_main_door",
-    "path":"sprites/spr_main_door/spr_main_door.yy",
+    "name":"spr_box",
+    "path":"sprites/spr_box/spr_box.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

@@ -1,4 +1,4 @@
-isOnObj = position_meeting(mouse_x,mouse_y,obj_VILKA);
+/*isOnObj = position_meeting(mouse_x,mouse_y,obj_VILKA);
 
 if(obj_stranger.clicked){
 	if(timer<=10){
@@ -36,3 +36,5 @@ if(isInHand){
 	x=mouse_x+50;
 	y=mouse_y;
 }
+*/
+event_inherited();

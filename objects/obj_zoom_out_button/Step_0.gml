@@ -8,9 +8,8 @@ if(isOnObj){
 }*/
 event_inherited();
 if(isClickedOnObj){
-	//view_set_camera(1,camera_create_view(0,0,1920,1080));
-	//obj_zoom_in.isClicable=true;
-	x+=30;
-	//instance_destroy(self);
+	view_set_camera(1,camera_create_view(0,0,1920,1080));
+	obj_zoom_in.isClickable=true;
+	instance_destroy(self);
 	
 }

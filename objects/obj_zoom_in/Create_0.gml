@@ -1,1 +1,1 @@
-isClicable = true;
+isClickable = true;

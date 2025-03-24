@@ -11,7 +11,7 @@ if(position_meeting(mouse_x,mouse_y,obj_stranger)){
 			camera_get_view_y(view_camera[1])+
 			camera_get_view_height(view_camera[1])-75,
 			"inst_button",
-			obj_navigate_back
+			obj_zoom_out_button
 		);
 		clicked=true;
 	}

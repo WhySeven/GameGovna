@@ -5,3 +5,6 @@ isScaled = false;
 x=obj_stranger.x-10;
 y=obj_stranger.y;
 image_angle=30+90;*/
+isClickable = false;
+start_x = x;
+start_y = y;

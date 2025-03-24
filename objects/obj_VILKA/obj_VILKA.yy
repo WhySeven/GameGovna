@@ -9,8 +9,8 @@
   "name":"obj_VILKA",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"rm_tour_obj",
+    "path":"folders/Objects/rm_tour_obj.yy",
   },
   "parentObjectId":{
     "name":"obj_click",

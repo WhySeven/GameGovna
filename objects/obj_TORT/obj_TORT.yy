@@ -9,8 +9,8 @@
   "name":"obj_TORT",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"rm_tour_obj",
+    "path":"folders/Objects/rm_tour_obj.yy",
   },
   "parentObjectId":null,
   "persistent":false,

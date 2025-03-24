@@ -9,8 +9,8 @@
   "name":"obj_zoom_out_button",
   "overriddenProperties":[],
   "parent":{
-    "name":"types",
-    "path":"folders/Objects/types.yy",
+    "name":"ZoomObj",
+    "path":"folders/Objects/types/ZoomObj.yy",
   },
   "parentObjectId":{
     "name":"obj_click",

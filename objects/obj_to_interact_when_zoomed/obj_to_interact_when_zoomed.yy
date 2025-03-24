@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_zoom_in",
+  "%Name":"obj_to_interact_when_zoomed",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_zoom_in",
+  "name":"obj_to_interact_when_zoomed",
   "overriddenProperties":[],
   "parent":{
     "name":"ZoomObj",

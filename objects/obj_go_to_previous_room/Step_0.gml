@@ -12,7 +12,6 @@ if(isClickable){
 			
 			show_message(global.temp_room[|i]);
 		}*/
-		
 		room_goto(previous_room);
 	
 	}

@@ -29,6 +29,7 @@ if(isTimeToScreamer){
 }
 if(timer_start){
 	if(timer>0){timer--;}else{
+		global.exists_pie=false;
 		instance_destroy(self);
 	}
 }

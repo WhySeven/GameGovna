@@ -2,7 +2,7 @@ event_inherited();
 
 if(isClickable){
 	if(isClickedOnObj){
-		instance_destroy(self.id);
+		instance_destroy(self);
 		//show_message(ds_list_find_index(global.temp_room,self.id));
 		//show_message(ds_list_find_index(global.temp_room,previous_room));
 		ds_list_delete(global.temp_room,ds_list_find_index(global.temp_room,self.id));

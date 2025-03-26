@@ -1,1 +1,0 @@
-isClickable = false;

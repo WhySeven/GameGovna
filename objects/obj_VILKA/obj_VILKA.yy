@@ -1,20 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_VILKA",
+  "%Name":"obj_vilka",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_VILKA",
+  "name":"obj_vilka",
   "overriddenProperties":[],
   "parent":{
     "name":"rm_tour_obj",
     "path":"folders/Objects/rm_tour_obj.yy",
   },
   "parentObjectId":{
-    "name":"obj_click",
-    "path":"objects/obj_click/obj_click.yy",
+    "name":"obj_to_take",
+    "path":"objects/obj_to_take/obj_to_take.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Vilka",
-    "path":"sprites/spr_Vilka/spr_Vilka.yy",
+    "name":"spr_vilka",
+    "path":"sprites/spr_vilka/spr_vilka.yy",
   },
   "spriteMaskId":null,
   "visible":true,

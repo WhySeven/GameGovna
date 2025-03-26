@@ -1,0 +1,26 @@
+draw_self();
+draw_sprite_ext(
+	spr_invenory_selected_slot,
+	0,
+	x,
+	y+64*selected_slot*image_yscale,
+	image_xscale,image_yscale,
+	0,
+	c_white,
+	1
+);
+for(var i = 0; i < array_length(items); i++){
+	if(items[i]!=0){
+		draw_sprite_ext(
+			object_get_sprite(items[i]),
+			0,
+			x+32*image_xscale,
+			y+(64*i+32)*image_yscale,
+			image_xscale,
+			image_yscale,
+			0,
+			c_white,
+			1
+		);
+	}
+}

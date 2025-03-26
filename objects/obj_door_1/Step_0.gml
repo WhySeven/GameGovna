@@ -1,19 +1,2 @@
-hover_on_obj = position_meeting(mouse_x, mouse_y, obj_door_1);
-
-if (hover_on_obj) {
-    // Если курсор над объектом и звук ещё не воспроизводился
-    if (!sound_played) {
-        audio_play_sound(Sound2, 1, false); // Воспроизводим звук
-        sound_played = true; // Устанавливаем флаг, чтобы звук не воспроизводился повторно
-    }
-
-
-    // Если левая кнопка мыши отпущена, переходим в следующую комнату
-    if (mouse_check_button_released(mb_left)) {
-        room_goto(rm_tour_room); // Переход в следующую комнату
-    }
-} else {
-    // Если курсор не над объектом, сбрасываем флаги и возвращаем исходный спрайт
-    sound_played = false; // Сбрасываем флаг воспроизведения звука
-    image_index = 0; // Возвращаем исходный спрайт (например, спрайт с индексом 0)
-}
+event_inherited();
+if(isClickable){if(isClickedOnObj){room_goto(rm_tour_room);}}

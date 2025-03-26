@@ -9,8 +9,8 @@
   "name":"obj_zoom_in",
   "overriddenProperties":[],
   "parent":{
-    "name":"ZoomObj",
-    "path":"folders/Objects/types/ZoomObj.yy",
+    "name":"zoomObjs",
+    "path":"folders/Objects/types/zoomObjs.yy",
   },
   "parentObjectId":{
     "name":"obj_click",

@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_table",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_table",
   "overriddenProperties":[],
@@ -9,7 +11,10 @@
     "name":"rm_tour_obj",
     "path":"folders/Objects/rm_tour_obj.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_zoom_in",
+    "path":"objects/obj_zoom_in/obj_zoom_in.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

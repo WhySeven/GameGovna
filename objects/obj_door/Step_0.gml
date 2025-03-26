@@ -3,7 +3,7 @@ hover_on_obj = position_meeting(mouse_x, mouse_y, obj_door);
 if (hover_on_obj) {
     // Если курсор над объектом и звук ещё не воспроизводился
     if (!sound_played) {
-        audio_play_sound(Sound2, 1, false); // Воспроизводим звук
+        audio_play_sound(snd_chain, 1, false); // Воспроизводим звук
         sound_played = true; // Устанавливаем флаг, чтобы звук не воспроизводился повторно
     }
 

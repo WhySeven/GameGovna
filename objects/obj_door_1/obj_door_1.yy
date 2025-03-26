@@ -9,12 +9,12 @@
   "name":"obj_door_1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"rm_hall",
+    "path":"folders/Objects/rm_hall.yy",
   },
   "parentObjectId":{
-    "name":"obj_click",
-    "path":"objects/obj_click/obj_click.yy",
+    "name":"obj_go_to_room",
+    "path":"objects/obj_go_to_room/obj_go_to_room.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

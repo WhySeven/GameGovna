@@ -10,8 +10,8 @@
   "name":"obj_butler",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"rm_hall",
+    "path":"folders/Objects/rm_hall.yy",
   },
   "parentObjectId":null,
   "persistent":false,

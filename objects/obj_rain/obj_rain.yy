@@ -9,8 +9,8 @@
   "name":"obj_rain",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"rm_road",
+    "path":"folders/Objects/rm_road.yy",
   },
   "parentObjectId":null,
   "persistent":false,

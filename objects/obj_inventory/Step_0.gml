@@ -1,3 +1,4 @@
+items = global.items;
 push_item = function(_item){
 	for(var i = 0;i<array_length(items);i++){
 		if(items[i]==0){

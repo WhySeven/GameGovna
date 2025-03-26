@@ -12,7 +12,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Buttons",
-    "path":"folders/Objects/Menu/Buttons.yy",
+    "path":"folders/Objects/rm_menu/Buttons.yy",
   },
   "parentObjectId":{
     "name":"obj_click",

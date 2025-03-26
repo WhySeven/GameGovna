@@ -13,8 +13,8 @@
   "name":"obj_room_controller",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"rm_menu",
+    "path":"folders/Objects/rm_menu.yy",
   },
   "parentObjectId":null,
   "persistent":false,

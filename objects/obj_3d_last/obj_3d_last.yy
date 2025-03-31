@@ -1,15 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_camera",
+  "%Name":"obj_3d_last",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_camera",
+  "name":"obj_3d_last",
   "overriddenProperties":[],
   "parent":{
-    "name":"types",
-    "path":"folders/Objects/types.yy",
+    "name":"cameras",
+    "path":"folders/Objects/types/cameras.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_invenory_selected_slot",
+    "path":"sprites/spr_invenory_selected_slot/spr_invenory_selected_slot.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

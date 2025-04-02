@@ -1,15 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_dialog",
+  "%Name":"obj_to_dialog",
   "eventList":[],
   "managed":true,
-  "name":"obj_dialog",
+  "name":"obj_to_dialog",
   "overriddenProperties":[],
   "parent":{
     "name":"dialogueObjs",
     "path":"folders/Objects/types/clickObjs/interactObjs/dialogueObjs.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_click",
+    "path":"objects/obj_click/obj_click.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

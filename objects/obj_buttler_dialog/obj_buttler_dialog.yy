@@ -1,21 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_butler",
+  "%Name":"obj_buttler_dialog",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_butler",
+  "name":"obj_buttler_dialog",
   "overriddenProperties":[],
   "parent":{
     "name":"rm_hall",
     "path":"folders/Objects/rm_hall.yy",
   },
-  "parentObjectId":{
-    "name":"obj_click",
-    "path":"objects/obj_click/obj_click.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -29,18 +27,11 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v1","%Name":"d","filters":[],"listItems":[
-        "\"Item 0\"",
-      ],"multiselect":false,"name":"d","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"Item 0\"","varType":6,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_butler",
-    "path":"sprites/spr_butler/spr_butler.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

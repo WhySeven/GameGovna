@@ -2,6 +2,7 @@ event_inherited();
 
 if(isClickedOnObj){
 	if(obj_inventory.items[obj_inventory.selected_slot]==obj_vilka){
+		global.pie_image_index=image_index;
 		if(image_index<4){
 			image_index +=1;
 			if(image_index!=4){

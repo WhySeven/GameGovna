@@ -1,7 +1,2 @@
 event_inherited();
-
-if(isClickable){
-	if(isClickedOnObj){
-		room_goto(previous_room);
-	}
-}
+if(isClickedOnObj){room_goto(previous_room);}

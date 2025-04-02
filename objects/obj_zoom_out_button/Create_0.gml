@@ -1,4 +1,3 @@
-isClickable = true;
 var cam = view_get_camera(1);
 image_yscale=2;
 image_xscale=2;

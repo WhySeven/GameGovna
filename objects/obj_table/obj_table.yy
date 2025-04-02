@@ -1,12 +1,13 @@
 {
   "$GMObject":"",
   "%Name":"obj_table",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"obj_table",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_zoom_in","path":"objects/obj_zoom_in/obj_zoom_in.yy",},"propertyId":{"name":"layer_of_objects_to_zoom","path":"objects/obj_zoom_in/obj_zoom_in.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"inst_table",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_click","path":"objects/obj_click/obj_click.yy",},"propertyId":{"name":"isClickable","path":"objects/obj_click/obj_click.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
+  ],
   "parent":{
     "name":"rm_tour_obj",
     "path":"folders/Objects/rm_tour_obj.yy",

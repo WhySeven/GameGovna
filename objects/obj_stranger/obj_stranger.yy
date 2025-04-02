@@ -7,7 +7,10 @@
   ],
   "managed":true,
   "name":"obj_stranger",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_zoom_in","path":"objects/obj_zoom_in/obj_zoom_in.yy",},"propertyId":{"name":"layer_of_objects_to_zoom","path":"objects/obj_zoom_in/obj_zoom_in.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"inst_stranger",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_click","path":"objects/obj_click/obj_click.yy",},"propertyId":{"name":"isClickable","path":"objects/obj_click/obj_click.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
+  ],
   "parent":{
     "name":"rm_tour_obj",
     "path":"folders/Objects/rm_tour_obj.yy",

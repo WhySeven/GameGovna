@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_door",
+  "%Name":"obj_entry_door",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_door",
-  "overriddenProperties":[],
+  "name":"obj_entry_door",
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_go_to_room","path":"objects/obj_go_to_room/obj_go_to_room.yy",},"propertyId":{"name":"room_to_go","path":"objects/obj_go_to_room/obj_go_to_room.yy",},"resource":{"name":"rm_hall","path":"rooms/rm_hall/rm_hall.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_hall",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_click","path":"objects/obj_click/obj_click.yy",},"propertyId":{"name":"isClickable","path":"objects/obj_click/obj_click.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
+  ],
   "parent":{
     "name":"rm_entry_door",
     "path":"folders/Objects/rm_entry_door.yy",

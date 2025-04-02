@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"interactObjs",
-    "path":"folders/Objects/types/interactObjs.yy",
+    "path":"folders/Objects/types/clickObjs/interactObjs.yy",
   },
   "parentObjectId":{
     "name":"obj_click",

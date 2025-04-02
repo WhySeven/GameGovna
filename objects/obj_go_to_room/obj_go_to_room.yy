@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"go_to_room_objs",
-    "path":"folders/Objects/types/go_to_room_objs.yy",
+    "path":"folders/Objects/types/clickObjs/go_to_room_objs.yy",
   },
   "parentObjectId":{
     "name":"obj_click",
@@ -28,7 +28,9 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"room_to_go","filters":[],"listItems":[],"multiselect":false,"name":"room_to_go","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

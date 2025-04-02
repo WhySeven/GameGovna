@@ -2,20 +2,17 @@
   "$GMObject":"",
   "%Name":"obj_game_controller",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_game_controller",
   "overriddenProperties":[],
   "parent":{
-    "name":"Buttons",
-    "path":"folders/Objects/rm_menu/Buttons.yy",
+    "name":"UI_Objs",
+    "path":"folders/Objects/UI_Objs.yy",
   },
-  "parentObjectId":{
-    "name":"obj_click",
-    "path":"objects/obj_click/obj_click.yy",
-  },
+  "parentObjectId":null,
   "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -36,7 +33,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_invenory_selected_slot",
+    "path":"sprites/spr_invenory_selected_slot/spr_invenory_selected_slot.yy",
+  },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

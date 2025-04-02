@@ -10,8 +10,8 @@
   "name":"obj_inventory",
   "overriddenProperties":[],
   "parent":{
-    "name":"types",
-    "path":"folders/Objects/types.yy",
+    "name":"UI_Objs",
+    "path":"folders/Objects/UI_Objs.yy",
   },
   "parentObjectId":null,
   "persistent":true,

@@ -8,8 +8,8 @@
   "name":"obj_click",
   "overriddenProperties":[],
   "parent":{
-    "name":"types",
-    "path":"folders/Objects/types.yy",
+    "name":"clickObjs",
+    "path":"folders/Objects/types/clickObjs.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -25,7 +25,11 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"isClickable","filters":[],"listItems":[],"multiselect":false,"name":"isClickable","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"isHovered","filters":[],"listItems":[],"multiselect":false,"name":"isHovered","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"isClickedOnObj","filters":[],"listItems":[],"multiselect":false,"name":"isClickedOnObj","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

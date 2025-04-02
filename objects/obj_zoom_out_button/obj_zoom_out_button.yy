@@ -7,10 +7,12 @@
   ],
   "managed":true,
   "name":"obj_zoom_out_button",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_click","path":"objects/obj_click/obj_click.yy",},"propertyId":{"name":"isClickable","path":"objects/obj_click/obj_click.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
+  ],
   "parent":{
     "name":"zoomObjs",
-    "path":"folders/Objects/types/zoomObjs.yy",
+    "path":"folders/Objects/types/clickObjs/zoomObjs.yy",
   },
   "parentObjectId":{
     "name":"obj_click",

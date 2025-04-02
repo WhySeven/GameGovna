@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"zoomObjs",
-    "path":"folders/Objects/types/zoomObjs.yy",
+    "path":"folders/Objects/types/clickObjs/zoomObjs.yy",
   },
   "parentObjectId":{
     "name":"obj_click",
@@ -29,7 +29,13 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"zoom_multiplier","filters":[],"listItems":[],"multiselect":false,"name":"zoom_multiplier","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10/3","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"zoom_x_correction","filters":[],"listItems":[],"multiselect":false,"name":"zoom_x_correction","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"zoom_y_correction","filters":[],"listItems":[],"multiselect":false,"name":"zoom_y_correction","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"50","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"layer_of_objects_to_zoom","filters":[],"listItems":[],"multiselect":false,"name":"layer_of_objects_to_zoom","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":2,},
+    {"$GMObjectProperty":"v1","%Name":"isZoomed","filters":[],"listItems":[],"multiselect":false,"name":"isZoomed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

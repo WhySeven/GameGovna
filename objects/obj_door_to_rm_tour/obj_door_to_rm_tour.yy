@@ -1,22 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_go_to_previous_room",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_door_to_rm_tour",
+  "eventList":[],
   "managed":true,
-  "name":"obj_go_to_previous_room",
+  "name":"obj_door_to_rm_tour",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_click","path":"objects/obj_click/obj_click.yy",},"propertyId":{"name":"isClickable","path":"objects/obj_click/obj_click.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_go_to_room","path":"objects/obj_go_to_room/obj_go_to_room.yy",},"propertyId":{"name":"room_to_go","path":"objects/obj_go_to_room/obj_go_to_room.yy",},"resource":{"name":"rm_tour_room","path":"rooms/rm_tour_room/rm_tour_room.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_tour_room",},
   ],
   "parent":{
-    "name":"go_to_room_objs",
-    "path":"folders/Objects/types/clickObjs/go_to_room_objs.yy",
+    "name":"rm_hall",
+    "path":"folders/Objects/rm_hall.yy",
   },
   "parentObjectId":{
-    "name":"obj_click",
-    "path":"objects/obj_click/obj_click.yy",
+    "name":"obj_go_to_room",
+    "path":"objects/obj_go_to_room/obj_go_to_room.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -36,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_box",
-    "path":"sprites/spr_box/spr_box.yy",
+    "name":"spr_door",
+    "path":"sprites/spr_door/spr_door.yy",
   },
   "spriteMaskId":null,
   "visible":true,
